@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>密码修改</title>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body bgcolor="black" class="aa">
+		<div class="one">
+		<h1>修改密码</h1>
+		<div class="two">
+			
+			<form action="chmm.php" method="post">
+				<div><span>原&nbsp;&nbsp;&nbsp;
+					密&nbsp;&nbsp;&nbsp;码：</span>
+				<input type="password" required name="ypwd"/>
+				</div>
+				<div><span>新&nbsp;&nbsp;&nbsp;
+					密&nbsp;&nbsp;&nbsp;码：</span>
+					<input type="password" required name="pw" id="pwd"/>
+				</div>
+					<div><span>确认新密码：</span>
+					<input type="password" required name="pw1" id="pwd1" onkeyup="validate()"/><span id="tishi"></span>
+				</div>
+				<div class="three">
+					<input type="submit" id="submit" value="确定" />
+					<input type="reset" value="重置" />
+				</div>
+				<a href="Message.php">返回</a>
+			</form>
+
+		</div>
+		</div>
+	<script>
+		function validate() {
+	if(document.getElementById("pwd").value==document.getElementById("pwd1").value) {
+		document.getElementById("tishi").innerHTML="<font color='green'>两次密码相同</font>";
+		document.getElementById("submit").disabled=false;
+	}
+	else {
+		document.getElementById("tishi").innerHTML="<font color='red'>两次密码不相同</font>";
+		document.getElementById("submit").disabled=true;
+	}
+}
+	</script>
+	</body>
+</html>

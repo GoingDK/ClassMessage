@@ -1,0 +1,47 @@
+.aa{
+	background-image: url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	background-position:275px;
+	background-position-y: 60px;
+	background-image: fixed;
+}
+a{
+	color: aliceblue;
+	font-family: "楷体";
+	text-decoration: none;
+}
+a:link{
+	color: aliceblue;
+}
+a:visited{
+	color: aliceblue;
+}
+a:hover{
+	color: red;
+}
+h1{
+	color: aliceblue;
+	text-align: center;
+	font-family: "楷体";
+}
+
+.one{
+	width: 100%;
+	min-width: 1350px;
+	min-height: 530px;
+	padding-top: 6%;
+}
+
+.two{
+	width: 500;
+	margin-left: 40%;
+	margin-top: 50px;
+}
+span{
+	color: aliceblue;
+}
+
+.three{
+	padding-top: 20px;
+	margin-left: 10%;
+}

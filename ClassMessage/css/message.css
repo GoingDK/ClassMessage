@@ -1,0 +1,47 @@
+.aa{
+	background-image: url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+}
+h1{
+	color: aliceblue;
+	text-align: center;
+	font-family: "楷体";
+}
+a{
+	color: aliceblue;
+	text-align: center;
+	font-family: "楷体";
+	text-decoration:none;
+}
+a:link{
+	color: aliceblue;
+}
+a:visited{
+	color: aliceblue;
+}
+a:hover{
+	color: red;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	color: aliceblue;
+	list-style-type: none;
+	float: left;
+	margin-left: 10px;
+}
+nav{
+	float: right;
+}
+.one{
+	width: 100%;
+	min-width: 1000px;
+}
+.abc{
+	float: right;
+}
+
